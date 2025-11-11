@@ -1,0 +1,16 @@
+{
+  "name": "my-ci-cd-project",
+  "version": "1.0.0",
+  "description": "CI/CD практичне завдання",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdir -p dist && cp index.js dist/ && echo 'Build completed!' > dist/build-info.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
